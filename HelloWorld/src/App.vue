@@ -1,5 +1,6 @@
 <template>
   <h1>{{ count }}</h1>
+  <button @click="count++">++</button>
 </template>
 
 <script>
